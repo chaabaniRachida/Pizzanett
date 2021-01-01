@@ -1,46 +1,45 @@
-import styled from 'styled-components';
+
+import styled from 'styled-components'
 import ImgBG from '../../images/bgDessert.jpg'
 
 export const MenuContainer = styled.div`
-background: url(${ImgBG}) no-repeat center;
-background-size: cover;
-font-family: sans-serif;
-`;
-
-export const MenuAll = styled.div`
-
+  background: url(${ImgBG}) no-repeat center;
+  background-size: cover;
+  font-family: sans-serif;
 `
+
+export const MenuAll = styled.div``
 
 export const MenuWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-`;
+`
 
 export const MenuCard = styled.div`
   margin: 0 2rem;
   line-height: 2;
   width: 300px;
-`;
+`
 
 export const MenuImg = styled.img`
   height: 300px;
   min-width: 300px;
   max-width: 100%;
   box-shadow: 8px 8px #fdc500;
-`;
+`
 
 export const MenusHeading = styled.h1`
   font-size: clamp(2rem, 2.5vw, 3rem);
   text-align: center;
   margin-bottom: 5rem;
-`;
+`
 
 export const MenuTitle = styled.h2`
   font-weight: 400;
   font-size: 1.5rem;
-`;
+`
 
 export const MenuInfo = styled.div`
   display: flex;
@@ -49,16 +48,16 @@ export const MenuInfo = styled.div`
   align-items: center;
   padding: 2rem;
   text-align: center;
-`;
+`
 
 export const MenuDesc = styled.p`
   margin-bottom: 1rem;
-`;
+`
 
 export const MenuPrice = styled.p`
   margin-bottom: 1rem;
   font-size: 2rem;
-`;
+`
 
 export const MenuButton = styled.button`
   font-size: 1rem;
@@ -73,4 +72,4 @@ export const MenuButton = styled.button`
     cursor: pointer;
     color: #000;
   }
-`;
+`

@@ -1,12 +1,11 @@
-import product1 from '../../images/menu1.png';
-import product2 from '../../images/menu2.png';
-import product3 from '../../images/menu3.png';
-import product4 from '../../images/menu4.jpg';
-import product5 from '../../images/menu5.jpg';
-import product6 from '../../images/menu6.jpg';
+import product1 from '../../images/menu1.png'
+import product2 from '../../images/menu2.png'
+import product3 from '../../images/menu3.png'
+import product4 from '../../images/menu4.jpg'
+import product5 from '../../images/menu5.jpg'
+import product6 from '../../images/menu6.jpg'
 
 export const dataMenu = [
- 
   {
     img: product1,
     alt: 'Menu Pizza',
@@ -20,8 +19,7 @@ export const dataMenu = [
     img: product2,
     alt: 'Menu Pizza',
     name: ' Menu Pizza margherita',
-    desc:
-      ' sauce tomates, basil, mozarella , tomatoes, olives,',
+    desc: ' sauce tomates, basil, mozarella , tomatoes, olives,',
     price: '9.90€',
     button: 'Ajouter au panier'
   },
@@ -47,8 +45,7 @@ export const dataMenu = [
     img: product5,
     alt: ' Menu Pizza',
     name: ' Menu Pizza margherita',
-    desc:
-      ' sauce tomates, basil, mozarella , tomatoes, olives,',
+    desc: ' sauce tomates, basil, mozarella , tomatoes, olives,',
     price: '9.90€',
     button: 'Ajouter au panier'
   },
@@ -61,5 +58,4 @@ export const dataMenu = [
     price: '14.99€',
     button: 'Ajouter au panier'
   }
-];
-
+]
