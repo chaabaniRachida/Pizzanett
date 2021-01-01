@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 import {
   FaFacebook,
   FaInstagram,
   FaYoutube,
   FaTwitter,
   FaLinkedin
-} from 'react-icons/fa';
+} from 'react-icons/fa'
 import {
   FooterContainer,
   FooterWrap,
@@ -14,7 +14,7 @@ import {
   SocialLogo,
   SocialIcons,
   SocialIconLink
-} from './FooterStyle';
+} from './FooterStyle'
 
 const Footer = () => {
   return (
@@ -34,7 +34,7 @@ const Footer = () => {
                 <FaYoutube />
               </SocialIconLink>
               <SocialIconLink
-                href='//www.twitter.com/briandesignz'
+                href='//www.twitter.com/'
                 target='_blank'
                 aria-label='Twitter'
                 rel='noopener noreferrer'
@@ -49,7 +49,7 @@ const Footer = () => {
         </SocialMedia>
       </FooterWrap>
     </FooterContainer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

@@ -1,8 +1,8 @@
 import React from 'react'
-
 import Loader from '../Loader'
 
-const sleep = m => new Promise(r => setTimeout(r, m))
+// eslint-disable-next-line no-undef
+const sleep = (m) => new Promise((r) => setTimeout(r, m))
 
 export default function asyncComponent(importComponent) {
   class AsyncComponent extends React.Component {

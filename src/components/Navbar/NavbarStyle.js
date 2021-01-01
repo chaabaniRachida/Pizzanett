@@ -1,6 +1,7 @@
 import Styled from 'styled-components'
-import {NavLink as Link } from 'react-router-dom'
-import {FaPizzaSlice} from 'react-icons/fa'
+// eslint-disable-next-line no-unused-vars
+import { NavLink as Link } from 'react-router-dom'
+import { FaPizzaSlice } from 'react-icons/fa'
 
 export const Nav = Styled.nav`
     background: transparent;
@@ -8,8 +9,8 @@ export const Nav = Styled.nav`
     display: flex;
     justify-content:center;
     font-weight: 700;
-`;
-export const NavLink =Styled.div`
+`
+export const NavLink = Styled.div`
     color:#fff;
     font-size: 2rem;
     display:flex;
@@ -23,8 +24,8 @@ export const NavLink =Styled.div`
         left:25px;
 
     }
-`;
-export const NavIcon =Styled.div`
+`
+export const NavIcon = Styled.div`
     display: block;    
     position: absolute;
     top:0;
@@ -37,8 +38,8 @@ p{
     transform: translate(-175%, 100%);
     font-weight:bold;
 }
-`;
+`
 export const Bars = Styled(FaPizzaSlice)`
     font-size=2rem;
     transform: translate(-50%,-15%)
-`;
+`

@@ -1,7 +1,6 @@
 import React from 'react'
-import { Container, LogoutButton } from './DisconnectStyle';
+import { Container, LogoutButton } from './DisconnectStyle'
 import { useHistory } from 'react-router-dom'
-
 
 const Disconnect = () => {
   const history = useHistory()
@@ -16,8 +15,8 @@ const Disconnect = () => {
     <Container>
       {isToken ? (
         <LogoutButton onClick={handleLogout}>Disconnect</LogoutButton>
-      ): null }
+      ) : null}
     </Container>
   )
 }
-export default Disconnect;
+export default Disconnect

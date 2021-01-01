@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {
   ProductsContainer,
   ProductWrapper,
@@ -10,7 +10,7 @@ import {
   ProductDesc,
   ProductPrice,
   ProductButton
-} from './StyleProduct';
+} from './StyleProduct'
 
 const Products = ({ heading, data }) => {
   return (
@@ -28,11 +28,11 @@ const Products = ({ heading, data }) => {
                 <ProductButton>{product.button}</ProductButton>
               </ProductInfo>
             </ProductCard>
-          );
+          )
         })}
       </ProductWrapper>
     </ProductsContainer>
-  );
-};
+  )
+}
 
-export default Products;
+export default Products

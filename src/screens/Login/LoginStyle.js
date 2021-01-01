@@ -52,7 +52,7 @@ export const Form = styled.form`
     font-size: 8rem;
   }
 `
-export const Logo =styled.img`
+export const Logo = styled.img`
     display: block;
     margin-left: auto;
     margin-right: auto }
@@ -66,7 +66,7 @@ export const Title = styled.h2`
 `
 export const Group = styled.div`
   position: relative;
-  ${props => (props.mt ? `margin-top: ${props.mt}px` : '')}
+  ${(props) => (props.mt ? `margin-top: ${props.mt}px` : '')}
 `
 export const Input = styled.input`
   width: 100%;
@@ -87,7 +87,7 @@ export const Button = styled.button`
   width: 100%;
   border: none;
   outline: none;
-  background: #9C471F;
+  background: #9c471f;
   font-size: 1rem;
   letter-spacing: 1px;
   padding: 10px 20px;
